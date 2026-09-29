@@ -1,0 +1,29 @@
+{
+    "name": "agentoom/core-compliance",
+    "description": "Agentoom EU AI Act compliance package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agentoom\\Compliance\\": "src/",
+            "Agentoom\\Compliance\\Database\\Factories\\": "database/factories/",
+            "Agentoom\\Compliance\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Agentoom\\Compliance\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "agentoom/core-main": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agentoom\\Compliance\\ComplianceServiceProvider"
+            ]
+        }
+    }
+}
