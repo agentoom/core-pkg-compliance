@@ -1,5 +1,6 @@
 {
     "name": "agentoom/core-compliance",
+    "version": "0.8.0",
     "description": "Agentoom EU AI Act compliance package",
     "type": "library",
     "license": "MIT",
